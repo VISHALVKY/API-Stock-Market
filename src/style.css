@@ -1,0 +1,149 @@
+body {
+    /* background-image: url(./bg3\ for\ project.webp); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+    text-shadow: 0 1px 0 #fff;
+}
+
+
+.button1 {
+    align-content: center;
+    width: 100%;
+    background-color: white;
+    color: #282c34;
+}
+
+
+table {
+    width: 60%;
+    border-collapse: separate;
+    box-shadow: 0, 0, 20px, rgba(0, 0, 0, 0.15);
+    font-size: 20px;
+    line-height: 26px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+}
+
+th {
+    font-weight: bold;
+    background-color: #282c34;
+    color: white;
+}
+
+td:first-child {
+    box-shadow: inset 1px 0 0 #fff;
+}
+
+td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: inset -1px 0 0 #fff;
+}
+
+tbody:hover td {
+    color: transparent;
+    text-shadow: 0 0 3px #aaa;
+}
+
+tbody:hover tr:hover td {
+    color: black;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: bold;
+}
+
+#hmticker {
+    float: none;
+}
+
+#hmticker {
+    display: block;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#indicesTicker {
+    width: 100%;
+}
+
+#indicesTicker {
+    display: inline-block;
+    width: 78%;
+    float: none;
+    vertical-align: top;
+}
+
+#indicesTicker marquee {
+    width: 100%;
+    display: block;
+}
+
+
+#indicesTicker marquee>div {
+    padding: 9px 10px;
+}
+
+#indicesTicker marquee>div {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-family: verdana;
+    background: #fafafa;
+    margin-right: 10px;
+    border: #ddd solid 1px;
+    border-radius: 2px;
+}
+
+
+#indicesTicker marquee>div span.stockname {
+    color: #333;
+    font-size: 12px;
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+#indicesTicker marquee>div span.stock_ltp {
+    background: blue;
+    color: #fff;
+    padding: 0 5px;
+    line-height: 20px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
+#indicesTicker marquee>div span.stock_change {
+    color: #000;
+    font-weight: normal;
+}
+
+#indicesTicker marquee>div span.stock_percent {
+    color: #000;
+    font-size: 11px;
+}
+
+
+#indicesTicker marquee>div span.stock_change b {
+    background: url(//imworld.rediff.com/moneyrediff/pix/moneysprite_pc_1.png) no-repeat;
+    background-position: -33px -56px;
+    width: 10px;
+    height: 6px;
+    display: inline-block;
+    margin: 0 0 0 3px;
+}
